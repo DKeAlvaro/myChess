@@ -1,6 +1,7 @@
 class Board:
     def __init__(self, size):
         self.board = [[None for x in range(size)] for y in range(size)]
+        
 
     def getPiece(self, x, y):
         return self.board[x][y]
