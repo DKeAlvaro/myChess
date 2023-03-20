@@ -10,5 +10,5 @@ class Piece():
 
     
     def paint(self, screen, x, y):
-        screen.blit(self.image, (x, y))
+        screen.blit(self.image, self.image_rect.move(x, y))
 
